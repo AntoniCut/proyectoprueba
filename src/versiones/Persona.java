@@ -43,7 +43,7 @@ public class Persona {
 	}
 
 	public void setEdad(int edad) {
-		this.eada = edad;
+		this.edad = edad;
 	}
 	
 	
