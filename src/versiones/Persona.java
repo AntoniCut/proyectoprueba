@@ -5,8 +5,9 @@ public class Persona {
 	private String nombre;
 	private String apellido;
 	private String dni;
+	private int edad;
 	
-	public Persona(String nombre, String apellido, String dni) {
+	public Persona(String nombre, String apellido, String dni, int edad) {
 		super();
 		this.nombre = nombre;
 		this.apellido = apellido;
@@ -37,11 +38,13 @@ public class Persona {
 		this.dni = dni;
 	}
 	
-	
-	
-	
-	
-	
+	public int getEdad() {
+		return edad;
+	}
+
+	public void setEdad(int edad) {
+		this.eada = edad;
+	}
 	
 	
 	
